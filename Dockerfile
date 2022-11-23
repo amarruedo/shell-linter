@@ -1,4 +1,4 @@
-FROM alpine:3.13.6
+FROM artifactory.boschdevcloud.com/cross-functions-docker-virtual/alpine:3.13.6
 
 RUN apk update && apk add --no-cache bash
 RUN bash --version 
